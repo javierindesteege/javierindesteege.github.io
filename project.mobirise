@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Javier Indesteege Personal Website",
-    "currentPage": "privacy.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -41,13 +41,18 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i"
       }
     ],
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon.png",
     "noImageResize": "true",
     "cookiesAlert": "I use cookies to give you the best experience. Read the <a href='privacy.html'>cookie policy</a>.",
     "google-analytics": "<!-- Global Site Tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-74632353-2\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-74632353-2');\r\n</script>",
     "uniqCompNum": 27,
     "versionPublish": "4.10.1",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "https://javierindesteege.github.io",
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -199,7 +204,7 @@
             }
           },
           "_name": "image3",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cc2952\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <a href=\"https://javierindesteege.github.io/javierindesteege/#\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/identity-website.png\" width=\"1400\" alt=\"Personal Identity Website\" title=\"Click to visit website\"></a>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cc2952\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <a href=\"https://javierindesteege.github.io/javierindesteege/#\"><img src=\"@PROJECT_PATH@/assets/images/identity-website.png\" width=\"1400\" alt=\"Personal Identity Website\" title=\"Click to visit personal identity website\"></a>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
           "_cid": "rrBKe15Yvp",
           "_anchor": "image3-l",
           "_protectedParams": [],
@@ -415,8 +420,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-3.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-3-800x536.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "The Trump Times vs Ronald McDonald Tabloid Spread",
+                "title": "The Trump Times vs Ronald McDonald Tabloid Spread",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": false
@@ -428,8 +433,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-8.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-8-800x536.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "The Trump Times vs Ronald McDonald Tabloid Spread",
+                "title": "The Trump Times vs Ronald McDonald Tabloid Spread",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": false
@@ -441,8 +446,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-4.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-4-800x536.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "The Trump Times vs Ronald McDonald Tabloid spread",
+                "title": "The Trump Times vs Ronald McDonald Tabloid Spread",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": false
@@ -454,8 +459,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-2.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-2-800x536.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "The Trump Times vs Ronald McDonald Tabloid spread",
+                "title": "The Trump Times vs Ronald McDonald Tabloid spread",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": false
@@ -467,8 +472,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-6.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-6-800x536.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "The Trump Times vs Ronald McDonald Tabloid Spread",
+                "title": "The Trump Times vs Ronald McDonald Tabloid Spread",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": false
@@ -480,8 +485,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-13.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/trump-times-javier-indesteege-13-800x536.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "The Trump Times vs Ronald McDonald Tabloid Back Cover",
+                "title": "The Trump Times vs Ronald McDonald Tabloid Back Cover",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": true
@@ -782,7 +787,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/greek-sculpture-javier-indesteege-1.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -816,7 +821,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/greek-sculpture-javier-indesteege-7.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -2044,7 +2049,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/pepper-mill-2.png",
                 "thumb": "@PROJECT_PATH@/assets/images/pepper-mill-2-800x1132.png",
-                "alt": "",
+                "alt": "Typographic Poster",
                 "title": "Proposal for Five Pepper Rock Festival",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
@@ -2057,8 +2062,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/kanaalplaat-javier-indesteege-print-1.png",
                 "thumb": "@PROJECT_PATH@/assets/images/kanaalplaat-javier-indesteege-print-1-800x1198.png",
-                "alt": "",
-                "title": "",
+                "alt": "Typographic Poster",
+                "title": "Poster announcing the colouring book made with Pia Indesteege.",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": false
@@ -2163,8 +2168,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-9087.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-9087-800x1167.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Typographic Poster for MINIMA DOCTA",
+                "title": "Poster for MINIMA DOCTA, a platform for social discussions and documentary cinema at Sint-Lucas Gent.",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": false
@@ -2176,8 +2181,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/minima-docta-3.3-screen.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/minima-docta-3.3-screen-800x1162.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Typoraphic Poster",
+                "title": "Poster for MINIMA DOCTA, a platform for social discussions and documentary cinema at Sint-Lucas Gent.",
                 "customStyle1": "display-7",
                 "caption": "",
                 "active": false
@@ -2189,8 +2194,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/minima-docta-2.3.2-web-2.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/minima-docta-2.3.2-web-2-800x1162.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Poster for a Michel Petrucciani screening at MINIMA DOCTA displaying a piano and his soul.",
+                "title": "Poster for a Michel Petrucciani screening at MINIMA DOCTA, a platform for social discussions and documentary cinema at Sint-Lucas Gent.",
                 "customStyle1": "display-7",
                 "caption": "",
                 "active": false
@@ -2202,8 +2207,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/s.h.o.t.s-73-plakboek-poster.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/s.h.o.t.s-73-plakboek-poster-800x1131.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Typographic Poster",
+                "title": "Poster announcing the \"Plakbook\" showcasing student work at Sint-Lucas Gent.",
                 "customStyle1": "display-7",
                 "caption": "",
                 "active": false
@@ -2215,8 +2220,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/after-school-club.png",
                 "thumb": "@PROJECT_PATH@/assets/images/after-school-club-800x1132.png",
-                "alt": "",
-                "title": "",
+                "alt": "Abstract black and white poster with drawn and digital shapes.",
+                "title": "Poster made at a After School Club 2018 workshop.",
                 "customStyle1": "display-7",
                 "caption": "",
                 "active": true
@@ -2228,8 +2233,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/koala-a2-2.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/koala-a2-2-800x1131.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "A smiling koala made in the style of René Magritte",
+                "title": "René Magritte and koala poster made for my boyfriend.",
                 "customStyle1": "display-7",
                 "caption": "",
                 "active": false
